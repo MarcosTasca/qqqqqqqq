@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraCars</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Sedan</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">SUV</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Hatch</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Pick-up</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Elétricos</a></li>
+      </ul>
+      <img src="img/LogoCars.svg" alt="Logo da AluraCars" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe qual carro deseja?</h2>
+    <p class="banner__texto">Encontre em nossa loja o carro perfeito para você!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima compra?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/carro1.svg" alt="Carro modelo 1"></div>
+        <div class="swiper-slide"><img src="img/carro2.svg" alt="Carro modelo 2"></div>
+        <div class="swiper-slide"><img src="img/carro3.svg" alt="Carro modelo 3"></div>
+        <div class="swiper-slide"><img src="img/carro4.svg" alt="Carro modelo 4"></div>
+        <div class="swiper-slide"><img src="img/carro5.svg" alt="Carro modelo 5"></div>
+        <div class="swiper-slide"><img src="img/carro6.svg" alt="Carro modelo 6"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">Modelo X - Elétrico</h2>
+          <p class="descrição__texto">Um carro elétrico que combina tecnologia e conforto.</p>
+        </div>
+        <img src="img/carroX.svg" class="descrição__imagem" />
+      </div
