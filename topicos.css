@@ -1,30 +1,48 @@
-.tópicos {
-    background: var(--azul-degrade);
-    text-align: center;
-    padding: 1em 0;
+/* topicos.css */
+
+/* Estilo geral da seção de tópicos */
+.topicos {
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
 }
 
-.tópicos__titulo {
-    color: var(--branco);
-    font-weight: 300;
-    margin-bottom: 1em;
+/* Estilo para o título da seção de tópicos */
+.topicos__titulo {
+    font-family: 'Poppins', sans-serif; /* Fonte do título */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #343a40; /* Cor do texto */
+    margin-bottom: 30px; /* Espaço abaixo do título */
 }
 
-.tópicos__lista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Estilo para a lista de tópicos */
+.topicos__lista {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento da lista */
 }
 
-.tópicos__item {
-    margin: 2em 0.5em;
+/* Estilo para cada item da lista de tópicos */
+.topicos__item {
+    display: flex; /* Usando flexbox para layout */
+    align-items: center; /* Alinhamento vertical */
+    margin: 15px 0; /* Espaço acima e abaixo de cada item */
 }
 
-.tópicos__link {
-    color: var(--branco);
-    padding: 1em;
-    background-color: var(--laranja);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
+/* Estilo para os ícones dos tópicos */
+.topicos__icone {
+    width: 40px; /* Largura do ícone */
+    height: auto; /* Altura automática para manter proporção */
+    margin-right: 15px; /* Espaço à direita do ícone */
+}
+
+/* Estilo para o texto de cada tópico */
+.topicos__texto {
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: #495057; /* Cor do texto */
+}
+
+/* Efeito ao passar o mouse sobre os itens da lista */
+.topicos__item:hover {
+    background-color: #e9ecef; /* Cor de fundo ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
 }

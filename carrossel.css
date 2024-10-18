@@ -1,0 +1,83 @@
+/* carrossel.css */
+
+/* Estilo geral do carrossel */
+.carrossel {
+    position: relative; /* Posição relativa para permitir sobreposição */
+    margin: 40px 0; /* Margem superior e inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Título do carrossel */
+.carrossel__titulo {
+    font-family: 'Poppins', sans-serif; /* Fonte do título */
+    font-size: 2rem; /* Tamanho da fonte */
+    color: #343a40; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo para o contêiner do carrossel */
+.swiper {
+    width: 100%; /* Largura total do contêiner */
+    height: 300px; /* Altura do contêiner */
+    border-radius: 10px; /* Cantos arredondados para o contêiner */
+    overflow: hidden; /* Oculta o conteúdo que ultrapassa o contêiner */
+}
+
+/* Estilo para os slides do carrossel */
+.swiper-slide {
+    text-align: center; /* Centraliza o texto nos slides */
+    font-size: 18px; /* Tamanho da fonte nos slides */
+    background: #fff; /* Cor de fundo branca para os slides */
+    display: flex; /* Exibe os slides como flexbox */
+    justify-content: center; /* Centraliza o conteúdo nos slides */
+    align-items: center; /* Alinha o conteúdo verticalmente nos slides */
+}
+
+/* Estilo para as imagens dos slides */
+.swiper-slide img {
+    width: 100%; /* Largura total das imagens */
+    height: auto; /* Altura automática para manter proporção */
+    border-radius: 10px; /* Cantos arredondados para as imagens */
+}
+
+/* Estilo para os botões de navegação do carrossel */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #007bff; /* Cor dos botões */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    position: absolute; /* Posição absoluta para permitir sobreposição */
+    top: 50%; /* Posição vertical dos botões */
+    transform: translateY(-50%); /* Centraliza os botões verticalmente */
+    z-index: 1; /* Índice de empilhamento para garantir que os botões fiquem na frente */
+}
+
+/* Estilo para o botão de navegação anterior */
+.swiper-button-prev {
+    left: 10px; /* Posição horizontal do botão anterior */
+}
+
+/* Estilo para o botão de navegação posterior */
+.swiper-button-next {
+    right: 10px; /* Posição horizontal do botão posterior */
+}
+
+/* Estilo para a descrição do carrossel */
+.card {
+    margin-top: 20px; /* Espaço acima da descrição */
+    text-align: center; /* Centraliza o texto da descrição */
+}
+
+/* Estilo para o título da descrição */
+.descrição__titulo {
+    font-family: 'Poppins', sans-serif; /* Fonte do título da descrição */
+    font-size: 1.5rem; /* Tamanho da fonte do título da descrição */
+    color: #343a40; /* Cor do texto do título da descrição */
+    margin-bottom: 10px; /* Espaço abaixo do título da descrição */
+}
+
+/* Estilo para o texto da descrição */
+.descrição__texto {
+    font-family: 'Poppins', sans-serif; /* Fonte do texto da descrição */
+    font-size: 1rem; /* Tamanho da fonte do texto da descrição */
+    color: #6c757d; /* Cor do texto da descrição */
+}

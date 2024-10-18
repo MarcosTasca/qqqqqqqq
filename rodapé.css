@@ -1,8 +1,63 @@
-hr {
-    margin: 0;
+/* rodape.css */
+
+/* Estilo geral do rodapé */
+.rodape {
+    background-color: #343a40; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
 }
 
-.rodapé {
-    background-color: var(--branco);
-    padding: 1em;
+/* Estilo para o container do rodapé */
+.rodape__container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+/* Estilo para os links do rodapé */
+.rodape__links {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento da lista */
+    margin: 10px 0; /* Espaço acima e abaixo da lista */
+}
+
+/* Estilo para cada item de link no rodapé */
+.rodape__link-item {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+/* Estilo para os links do rodapé */
+.rodape__link {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+
+/* Efeito ao passar o mouse sobre os links do rodapé */
+.rodape__link:hover {
+    color: #007bff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o texto de direitos autorais */
+.rodape__direitos {
+    margin-top: 10px; /* Espaço acima do texto de direitos autorais */
+    font-size: 0.9rem; /* Tamanho da fonte */
+}
+
+/* Estilo para ícones de redes sociais */
+.rodape__redes-sociais {
+    margin: 10px 0; /* Espaço acima e abaixo dos ícones */
+}
+
+/* Estilo para cada ícone de rede social */
+.rodape__rede-social {
+    margin: 0 10px; /* Espaço entre os ícones */
+}
+
+/* Estilo para as imagens dos ícones de redes sociais */
+.rodape__rede-social img {
+    max-width: 30px; /* Largura máxima dos ícones */
+    height: auto; /* Altura automática para manter proporção */
 }
